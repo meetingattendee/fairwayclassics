@@ -7,6 +7,8 @@
           "type": "image-banner",
           "settings": {
             "color_scheme": "custom-1",
+            "desktop_img": "shopify:\/\/shop_images\/ShopBestSellers.webp",
+            "mobile_img": "shopify:\/\/shop_images\/ShopBestSellers_Mobile_0ca7a97f-a595-49be-af59-1732a93f7a12.webp",
             "desktop_overlay_opacity": 20,
             "mobile_overlay_opacity": 20,
             "caption": "IMAGE SLIDE",
@@ -32,6 +34,7 @@
         },
         "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1": {
           "type": "split-image-banner",
+          "disabled": true,
           "settings": {
             "color_scheme": "default",
             "image_proportion": 50,
@@ -54,6 +57,7 @@
         },
         "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2": {
           "type": "image-banner",
+          "disabled": true,
           "settings": {
             "color_scheme": "custom-1",
             "desktop_overlay_opacity": 20,
@@ -81,6 +85,7 @@
         },
         "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b": {
           "type": "split-image-banner",
+          "disabled": true,
           "settings": {
             "color_scheme": "default",
             "image_proportion": 30,
@@ -353,8 +358,8 @@
         "mobile_space_between_cards": 16,
         "show_navigation_on_hover": true,
         "collection_card_overlay_opacity": 10,
-        "collection_card_overlay_color": "#000",
-        "collection_card_title_color": "#fff",
+        "collection_card_overlay_color": "#000000",
+        "collection_card_title_color": "#ffffff",
         "autoplay_mode": "disabled",
         "autoplay_interval": 3,
         "add_side_paddings": true,
@@ -474,12 +479,12 @@
         "before_img_subheading": "",
         "before_img_heading": "",
         "before_img_heading_size": "h4",
-        "before_img_heading_color": "#FFFFFF",
+        "before_img_heading_color": "#ffffff",
         "after_img_label": "After",
         "after_img_subheading": "",
         "after_img_heading": "",
         "after_img_heading_size": "h4",
-        "after_img_heading_color": "#FFFFFF",
+        "after_img_heading_color": "#ffffff",
         "add_side_paddings": true,
         "section_spacing_top": 64,
         "section_spacing_bottom": 96

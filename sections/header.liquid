@@ -1063,7 +1063,8 @@
                 <div class='mega-menu mega-dropdown'>
                   <div class='mega-menu__outer-container mega-dropdown__container container container--{{ container_size }}'>
                     <div class='mega-menu__inner-container'>
-                      <div class='mega-menu__columns {% if grid == '2' or grid == '3' or grid == '5' %}mega-menu__columns--align-left{% endif %}'>
+                      <div class='mega-menu__columns{% if link.links.size > 0 %}__with_subs{% endif %} {% if grid == '2' or grid == '3' or grid == '5' %}mega-menu__columns--align-left{% endif %}'>
+
 
                       {% if link.links.size > 0 %}
                         <div class='mega-dropdown__column'>

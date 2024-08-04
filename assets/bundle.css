@@ -12588,6 +12588,17 @@ input[type="number"]::-webkit-inner-spin-button {
   grid-template-columns: unset;
 }
 
+.mega-dropdown .mega-menu__columns__with_subs {
+  padding: 1.6rem 4rem 3.2rem 4rem;
+  display: grid;
+  grid-template-columns: minmax(300px, 20%) 1fr;
+  gap: 4rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .mega-dropdown .mega-menu__columns {
   padding: 1.6rem 4rem 3.2rem 4rem;
   display: grid;

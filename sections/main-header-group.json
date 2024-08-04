@@ -8,13 +8,14 @@
         "announcement_1": {
           "type": "announcement",
           "settings": {
-            "text": "<p>Make an announcement<\/p>",
+            "text": "<p>FREE US SHIPPING ON ALL ORDERS $100<\/p>",
             "link": "",
             "icon": "none"
           }
         },
         "announcement_2": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p>Make an announcement<\/p>",
             "link": "",
@@ -28,7 +29,7 @@
       ],
       "settings": {
         "show_only_on_homepage": false,
-        "color_scheme": "secondary",
+        "color_scheme": "custom-1",
         "container_size": "full-screen",
         "show_navigation_arrows": true,
         "autoplay_mode": "disabled",
@@ -37,7 +38,7 @@
         "show_currency_selector": false,
         "show_social_list": true,
         "add_side_paddings": true,
-        "desktop_spacing_top": 20,
+        "desktop_spacing_top": 5,
         "desktop_spacing_bottom": 0,
         "mobile_spacing_top": 0,
         "mobile_spacing_bottom": 0
@@ -49,7 +50,7 @@
         "ad5b492f-e107-4508-9613-245a05308a86": {
           "type": "menu-1",
           "settings": {
-            "mega_nav_item_name": "Home",
+            "mega_nav_item_name": "Gents",
             "block_visibility": "desktop_and_mobile",
             "color_scheme": "white",
             "desktop_img_ratio": 0.5,
@@ -125,7 +126,7 @@
         "bb6437d8-87b2-49a9-972f-9fb5b94cc5b6": {
           "type": "menu-2",
           "settings": {
-            "mega_nav_item_name": "Catalog",
+            "mega_nav_item_name": "Ladies",
             "block_visibility": "desktop_and_mobile",
             "collection": "",
             "featured_products": [
@@ -145,7 +146,7 @@
         "83080f15-bfa2-4fe6-a15c-86e118ea2ddd": {
           "type": "menu-3",
           "settings": {
-            "mega_nav_item_name": "Contact",
+            "mega_nav_item_name": "Youngsters",
             "block_visibility": "desktop_and_mobile",
             "block_layout": "carousel",
             "collection_list": [
@@ -162,6 +163,8 @@
             "mobile_space_between_cards": 12,
             "header_block_paddings_mobile": 20,
             "collection_card_overlay_opacity": 15,
+            "collection_card_overlay_color": "#000",
+            "collection_card_title_color": "#fff",
             "autoplay_mode": "disabled",
             "autoplay_interval": 3
           }
@@ -180,17 +183,21 @@
         "enable_border": false,
         "enable_transparent": false,
         "menu": "main-menu",
-        "menu_type": "dropdown",
-        "grid": "1",
+        "menu_type": "mega",
+        "grid": "3",
         "menu_trigger": "hover",
         "color_menu_items": "Item 1:#E32417, Item 2:#F1C232",
-        "desktop_logo_width": 140,
-        "mobile_logo_width": 120,
+        "desktop_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
+        "desktop_transparent_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
+        "desktop_logo_width": 240,
+        "mobile_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
+        "mobile_transparent_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
+        "mobile_logo_width": 190,
         "is_transparent_only_on_homepage": true,
         "transparent_opacity": 0,
         "transparent_blurring": 0,
-        "transparent_background_color": "#FFFFFF",
-        "transparent_items_color": "#FFFFFF",
+        "transparent_background_color": "#ffffff",
+        "transparent_items_color": "#ffffff",
         "icon_style": "round-outline",
         "cart_icon": "bag",
         "login_mobile_position": "in_header",
