@@ -1,0 +1,75 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-1": {
+          "type": "logo_with_text",
+          "settings": {
+            "logo_width": 140,
+            "title": "Logo with text",
+            "heading_size": "caption2",
+            "text": "<p>Pair logo with text to tell more about your brand, history, and achievements.<\/p>",
+            "body_size": "body4"
+          }
+        },
+        "footer-2": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "body_size": "body4",
+            "title": "Menu",
+            "heading_size": "caption2"
+          }
+        },
+        "footer-3": {
+          "type": "social_media",
+          "settings": {
+            "title": "Social media",
+            "heading_size": "caption2",
+            "text": "<p>Add links to your accounts in Theme settings > Social media so that they appear as icons below.<\/p>",
+            "body_size": "body4"
+          }
+        },
+        "footer-4": {
+          "type": "subscribe",
+          "settings": {
+            "title": "Subscribe",
+            "heading_size": "caption2",
+            "text": "<p>Invite customers to join your mailing list.<\/p>",
+            "body_size": "body4",
+            "input_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "footer-2",
+        "footer-3",
+        "footer-4"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_column_count": "4",
+        "enable_border": false,
+        "bottom_bar": "main-menu",
+        "show_payment_icons": true,
+        "copyright_text": "",
+        "enable_follow_on_shop": false,
+        "show_language_selector": true,
+        "show_currency_selector": false,
+        "show_policy_links": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
