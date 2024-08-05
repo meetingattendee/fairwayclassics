@@ -27701,11 +27701,13 @@ product-media-carousel[ready] {
   }
 
   .announcement-bar {
-    border-radius: var(--gsc-base-radii, 0);
+    /* border-radius: var(--gsc-base-radii, 0);
     max-width: min(
       var(--gsc-container-width) + var(--gsc-container-padding) * 2,
       100% - var(--gsc-padding-inline) * 2
-    );
+    ); */
+    border-radius: 0;
+    max-width: 100%;
   }
 
   .announcement-bar.container--page-width {
