@@ -166,8 +166,8 @@
             "mobile_space_between_cards": 12,
             "header_block_paddings_mobile": 20,
             "collection_card_overlay_opacity": 15,
-            "collection_card_overlay_color": "#000",
-            "collection_card_title_color": "#fff",
+            "collection_card_overlay_color": "#000000",
+            "collection_card_title_color": "#ffffff",
             "autoplay_mode": "disabled",
             "autoplay_interval": 3
           }
@@ -190,10 +190,10 @@
         "grid": "3",
         "menu_trigger": "click",
         "color_menu_items": "Item 1:#E32417, Item 2:#F1C232",
-        "desktop_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
+        "desktop_logo_img": "shopify:\/\/shop_images\/fwyclscs_01a.svg",
         "desktop_transparent_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
         "desktop_logo_width": 240,
-        "mobile_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
+        "mobile_logo_img": "shopify:\/\/shop_images\/fwyclscs_01a_8da97e72-32bf-4fcd-a913-31b751c896ad.svg",
         "mobile_transparent_logo_img": "shopify:\/\/shop_images\/fairway_classics_01.svg",
         "mobile_logo_width": 190,
         "is_transparent_only_on_homepage": true,

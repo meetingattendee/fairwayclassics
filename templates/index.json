@@ -3,6 +3,34 @@
     "35abde66-b33a-4178-b3ef-5bba319784ba": {
       "type": "slideshow",
       "blocks": {
+        "image_banner_DkALfa": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "custom-1",
+            "video": "shopify:\/\/files\/videos\/golfvid01.mp4",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "PUMA GOLF",
+            "title": "Latest Finds",
+            "heading_size": "display3",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 560,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "Shop Puma",
+            "btn_url": "shopify:\/\/collections\/clothing",
+            "btn_style": "solid",
+            "extra_btn_text": "Shop Mens",
+            "extra_btn_url": "shopify:\/\/collections",
+            "extra_btn_style": "outline"
+          }
+        },
         "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0": {
           "type": "image-banner",
           "settings": {
@@ -108,6 +136,7 @@
         }
       },
       "block_order": [
+        "image_banner_DkALfa",
         "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0",
         "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1",
         "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2",
@@ -143,7 +172,9 @@
         "heading_size": "h5",
         "alignment": "center",
         "collection_list": [
-
+          "golf-shoes",
+          "header-navigation-ladies",
+          "frontpage"
         ],
         "img_ratio": "default",
         "product_card_align": "left",
@@ -187,6 +218,7 @@
       "block_order": [
         "navigation_item_W3dEFJ"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "font_family": "heading",
@@ -459,6 +491,7 @@
     },
     "412725f2-05f4-4ccc-923b-c9d7af83b3a4": {
       "type": "before-after-images",
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "large",
@@ -704,6 +737,7 @@
       "block_order": [
         "template--16205923156144__8878505b-0411-4b21-a1ce-7936ab3f37fe-announcement-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "full-screen",
@@ -802,8 +836,8 @@
         "pin_inner_color": "#ffffff",
         "pin_outer_color": "#000000",
         "add_side_paddings": true,
-        "section_spacing_top": 96,
-        "section_spacing_bottom": 96
+        "section_spacing_top": 20,
+        "section_spacing_bottom": 20
       }
     },
     "a456067a-03e0-4240-bdb6-4015ebe878a8": {
